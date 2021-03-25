@@ -15,7 +15,8 @@ SECRET_KEY = '(qrna3q=#dqpwlg&d_z*93=&s52b&mvs1%^4sdzkuob5igsd_a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
+if DEBUG == False:
+    SECURE_SSL_REDIRECT = True
 
 ALLOWED_HOSTS = ['estelarestoran.herokuapp.com','localhost','127.0.0.1']
 
