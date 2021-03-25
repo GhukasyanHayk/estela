@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(qrna3q=#dqpwlg&d_z*93=&s52b&mvs1%^4sdzkuob5igsd_a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['estelarestoran.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
